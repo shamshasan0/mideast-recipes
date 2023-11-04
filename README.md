@@ -1,25 +1,24 @@
 # MidEastRecipes
 
-
-
-
+```
 |__ app
-    |__ app-component
-        |__ components / shared-ui / core-ui
+    |__ ui 
+        |__ components
             ( ... all your shared components go here)
-
-        |__ shared
-            ( ... interfaces and type files, mock repos )
-
-        |__ services
-            ( ... Service files here )
-
         |__ pages 
-             ( ... pages components here )  
+            ( ... pages components here )  
+
+    |__ shared
+        ( ... interfaces and type files, mock repos )
+
+    |__ services
+        ( ... Service files here )
+
 
 |__ assets
     ( ... icons, images go here ) 
-            
+
+```
 
 
 
