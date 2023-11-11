@@ -5,6 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
 
+type HomeContent = {
+  moon: string,
+  meals:string []
+};
+
+export class HomeComponent {
+  content: HomeContent = {
+    moon: "🌙",
+    meals:["Breakfast", "Lunch", "Dinner", "Dessert"]
+  } 
 }

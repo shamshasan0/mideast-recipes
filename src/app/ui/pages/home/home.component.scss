@@ -1,0 +1,42 @@
+.hero {
+    display: flex;
+    padding: 55px 10px 0px 35px;
+    gap: 50px 110px; 
+    
+    &-welcome {
+        &__title {
+            font-size: 55px;
+            margin-left: 1rem;
+            transform: rotate(351deg);
+            margin-top: 5rem;
+            
+            & > span {
+                display:inline-block;
+                transform:scale(-1,1);
+            }
+        }
+    }
+
+    &-meals {
+        &__title {
+            font-size: 57.5px;
+            margin-bottom: 1rem;
+            text-align:center;
+        }
+        &-selects{
+            text-align: center;
+            font-size: 22.5px;
+            font-weight: 500;
+            display:flex;
+            justify-content: center;
+            gap: 22.5px;
+
+            & > a{
+                display:inline-block;
+                transform:scale(-1,1);
+            }    
+        }
+        
+    }
+}
+
