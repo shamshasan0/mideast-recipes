@@ -6,14 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 
-type HomeContent = {
-  moon: string,
-  meals:string []
-};
-
 export class HomeComponent {
-  content: HomeContent = {
+  content: {
+    moon: string,
+    meals:string []
+  } = {
     moon: "🌙",
     meals:["Breakfast", "Lunch", "Dinner", "Dessert"]
   } 
+  // 🐸
 }

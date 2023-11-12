@@ -13,11 +13,12 @@
         <!-- title <h2> -->
         <h2 class="hero-meals__title"> What are you looking to prepare today? </h2>
         <!-- selections -->
-        <div class="hero-meals-selects">
-            <a class="hero-meals-selects__link"> <span class="moon"> 🌙 </span> Breakfast </a> 
-            <a class="hero-meals-selects__link"> <span class="moon"> 🌙 </span> Lunch </a> 
-            <a class="hero-meals-selects__link"> <span class="moon"> 🌙 </span> Dinner </a> 
-            <a class="hero-meals-selects__link"> <span class="moon"> 🌙 </span> Dessert </a> 
+        <!-- content -->
+        <div class="hero-meals-selects" *ngFor="let meal of content.meals">
+            <a class="hero-meals-selects__link"> 
+                <span class="moon"> {{content.moon}} </span>
+                 {{meal}}
+            </a> 
         </div>
     </div> 
 </section>
