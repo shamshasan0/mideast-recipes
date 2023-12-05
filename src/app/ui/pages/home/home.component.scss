@@ -1,43 +1,33 @@
 .hero {
     padding: 55px 10px;
-    
+    text-align: center;
+
     &-welcome {
         &__title {
-            text-align:center;
             font-size: 62.5px;
             padding-left: 10px;
-            
-            
-            & > span {
-                display:inline-block; 
-                transform:scale(-1,1);
-            }
         }
     }
 
     &-meals {
         &__title {
             font-size: 50px;
-            text-align:center;
-            margin-bottom: .75rem;
+            margin-bottom: 0.75rem;
         }
-        &-selects{
-            text-align: center;
+        &-selects {
             font-size: 28px;
+
             font-weight: 500;
-            display:flex;
 
             &__link {
-                display: inline-block;
-                flex:1;
-                margin-bottom: .3rem;
+                margin: 0 auto;
+                margin-bottom: 0.3rem;
             }
         }
-        
     }
 }
 
 .moon {
-    display:inline-block;
-    transform:scale(-1,1);
-} 
+    display: inline-block;
+    transform: scale(-1, 1);
+}
