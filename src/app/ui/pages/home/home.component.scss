@@ -1,18 +1,15 @@
 .hero {
-    display: flex;
-    padding: 55px 10px 0px 35px;
-    gap: 50px 110px; 
+    padding: 55px 10px;
     
     &-welcome {
         &__title {
-            font-size: 55px;
-            margin-left: 1rem;
-            transform: rotate(351deg);
-            margin-top: 5rem;
+            text-align:center;
+            font-size: 62.5px;
             padding-left: 10px;
             
+            
             & > span {
-                display:inline-block;
+                display:inline-block; 
                 transform:scale(-1,1);
             }
         }
@@ -20,23 +17,20 @@
 
     &-meals {
         &__title {
-            font-size: 57.5px;
-            margin-bottom: 1rem;
+            font-size: 50px;
             text-align:center;
+            margin-bottom: .75rem;
         }
         &-selects{
             text-align: center;
-            font-size: 22.5px;
+            font-size: 28px;
             font-weight: 500;
             display:flex;
-            gap: 22.5px;
 
             &__link {
                 display: inline-block;
                 flex:1;
-                width: 40%;
-                justify-content: center;
-                margin-bottom: .5rem;
+                margin-bottom: .3rem;
             }
         }
         
