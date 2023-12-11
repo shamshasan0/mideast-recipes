@@ -1,6 +1,6 @@
 # MidEastRecipes
 
-Link to project: https://mideast-recipes.vercel.app/mideast-recipes/
+Link to project: mideast-recipes.vercel.app
 ```
 |__ app
     |__ ui 
