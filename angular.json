@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "MidEast-recipes:build:production"
+              "buildTarget": "MidEast-recipes:build:production"
             },
             "development": {
-              "browserTarget": "MidEast-recipes:build:development"
+              "buildTarget": "MidEast-recipes:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MidEast-recipes:build"
+            "buildTarget": "MidEast-recipes:build"
           }
         },
         "test": {
