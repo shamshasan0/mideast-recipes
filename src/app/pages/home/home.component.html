@@ -1,4 +1,3 @@
-
 <!-- Navigation Bar: Appear after user makes a selection. E.g: in the recipe page -->
 
 <!-- Hero Section -->
@@ -6,18 +5,17 @@
     <!-- Welcome Message: LEFT -->
     <div class="hero-welcome">
         <!-- title -->
-        <h1 class="hero-welcome__title">Welcome to MidEast Recipes <span class = "moon">{{content.moon}}</span></h1>
+        <h1 class="hero-welcome__title">{{content.title}} <span class = "moon">🌙</span></h1>
     </div>   
     <!-- Hero Content: RIGHT : Where users select different food selections  -->
     <div class="hero-meals">
         <!-- title <h2> -->
-        <h2 class="hero-meals__title"> What are you looking to prepare today? </h2>
+        <h2 class="hero-meals__title"> {{content.subtitle}} </h2>
         <!-- selections -->
         <!-- content -->
-        <div class="hero-meals-selects" *ngFor="let meal of content.meals">
-            <a class="hero-meals-selects__link"> 
-                <span class="moon"> {{content.moon}} </span>
-                 {{meal}}
+        <div class="hero-meals-selects" *ngFor="let meal of content.navigation">
+            <a class="hero-meals-selects__link"> {{meal}}
+                <span class="moon"> 🌙 </span>
             </a> 
         </div>
     </div> 
