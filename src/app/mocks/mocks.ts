@@ -10,7 +10,7 @@ export const HOMEPAGE_MOCKS: HomePage = {
 export const BREAKFAST_MEALS_PAGE: MealsPage = {
     title: "Breakfast",
     items: [
-        { image: "image source1", title: "meal title1", origin: "iraq" },
+        { image: "image source1", title: "Clotted cream with Filo (جيمار وكاهي)", origin: "Iraq" },
         { image: "image source2", title: "meal title2", origin: "syria" }
     ]
 }
@@ -18,7 +18,7 @@ export const BREAKFAST_MEALS_PAGE: MealsPage = {
 export const LUNCH_MEALS_PAGE: MealsPage = {
     title: "Lunch",
     items: [
-        { image: "image source1", title: "meal title1", origin: "iraq" },
+        { image: "", title: "Iraqi Red Soup with Kubbeh (شوربة حمراء عراقية) (", origin: "Iraq" },
         { image: "image source2", title: "meal title2", origin: "syria" }
     ]
 }
