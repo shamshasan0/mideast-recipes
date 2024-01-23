@@ -14,19 +14,21 @@ export const BREAKFAST_MEALS_PAGE: MealsPage = {
         { image: "image source2", title: "meal title2", origin: "syria" }
     ]
 }
-
 export const LUNCH_MEALS_PAGE: MealsPage = {
     title: "Lunch",
     items: [
-        { image: "", title: "Iraqi Red Soup with Kubbeh (شوربة حمراء عراقية) (", origin: "Iraq" },
-        { image: "image source2", title: "meal title2", origin: "syria" }
+        { image: "IMG_7961.PNG", title: "Iraqi Red Soup with Kubbeh (شوربة حمراء عراقية) ", origin: "Iraq" },
+        { image: "IMG_2124.heic", title: "Kubbet Halab (Iraqi Meat Dumplings)", origin: "Iraq" }
+
     ]
 }
 export const DINNER_MEALS_PAGE: MealsPage = {
     title: "Dinner",
     items: [
         { image: "image source1", title: "meal title1", origin: "iraq" },
-        { image: "image source2", title: "meal title2", origin: "syria" }
+        { image: "image source2", title: "meal title2", origin: "syria" },
+        { image: "IMG_2124.heic", title: "Kubbet Halab (Iraqi Meat Dumplings)", origin: "Iraq" },
+
     ]
 }
 export const DESSERT_MEALS_PAGE: MealsPage = {
