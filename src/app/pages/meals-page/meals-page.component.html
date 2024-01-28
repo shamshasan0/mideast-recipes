@@ -1,7 +1,9 @@
 <h2 class="meals-page__title">{{content.title}}</h2>
 <div class="meals-page__items" *ngFor="let item of content.items">
-  {{item.image}}
+  <!-- NOTE: Images is not loading because you did not put image path inside of an <img> element -->
+  <!-- EXAMPLE: <img src="{{item.image}}"> -->
+  <img src="{{item.image}}" />
   {{item.title}}
-  {{item.origin}} 
+  {{item.origin}}
 
 </div>

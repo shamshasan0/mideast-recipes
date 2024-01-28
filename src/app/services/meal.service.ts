@@ -6,8 +6,14 @@ import { MealsPageComponent } from '../pages/meals-page/meals-page.component';
   providedIn: 'root'
 })
 export class MealService {
-  // getMeals (): MealsPage {
 
-  // }
+  getMeals(): {
 
+  }
+
+
+  getMealsByURL(): {
+    // Get URL and maybe convert it to a string
+    // Accesss
+  }
 }
